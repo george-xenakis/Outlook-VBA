@@ -1,5 +1,5 @@
 Attribute VB_Name = "PW_Save"
-Public Sub PW_Cobalt_Save(itm As Outlook.MailItem)
+Public Sub PW_Save(itm As Outlook.MailItem)
     Dim objAtt As Outlook.Attachment
     Dim saveFolder As String
     Dim AttachmentList As Attachments
